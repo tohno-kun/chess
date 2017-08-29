@@ -1,0 +1,157 @@
+[0825/144359.149:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/144916.224:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145041.637:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145116.839:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145126.437:ERROR:main_dll_loader_win.cc(148)] Failed to load NW DLL from F:\web apps\chess\nw.dll: 找不到指定的模块。 (0x7E)
+[0825/145150.869:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145202.024:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145210.032:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145210.140:ERROR:icu_util.cc(173)] Invalid file descriptor to ICU data received.
+[0825/145210.140:FATAL:icu_util.cc(292)] Check failed: result. 
+Backtrace:
+	std::vector<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> >::_Tidy [0x00007FFCB3B63875+22341]
+	std::vector<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> >::_Tidy [0x00007FFCB3B66E33+36099]
+	v8::internal::compiler::InstructionOperand::Compare [0x00007FFCB3AD83DB+167387]
+	v8::CpuProfileNode::GetNodeId [0x00007FFCB3EFB1D2+118290]
+	v8::internal::interpreter::Register::operator= [0x00007FFCB39AF7CB+10715]
+	v8::internal::compiler::LiveRange::next [0x00007FFCB39C9A9A+28890]
+	v8::internal::interpreter::Register::operator= [0x00007FFCB39AF378+9608]
+	ChromeMain [0x00007FFCB278CE5A+282]
+	(No symbol) [0x00007FF60ACE5DE0]
+	(No symbol) [0x00007FF60ACE5437]
+	IsSandboxedProcess [0x00007FF60AD55183+139235]
+	BaseThreadInitThunk [0x00007FFCEA478364+20]
+	RtlUserThreadStart [0x00007FFCEA585E91+33]
+
+[0825/145210.476:ERROR:process_info.cc(632)] range at 0xb35326ec00000000, size 0x140 fully unreadable
+[0825/145210.477:ERROR:process_info.cc(632)] range at 0xb353270c00000000, size 0x140 fully unreadable
+[0825/145210.477:ERROR:process_info.cc(632)] range at 0x0, size 0x140 fully unreadable
+[0825/145210.718:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2ee6)
+[0825/145229.101:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145236.525:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145243.908:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145244.057:FATAL:v8_initializer.cc(167)] Failed to open V8 file 'F:\web apps\chess\natives_blob.bin' (reason: -4)
+Backtrace:
+	std::vector<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> >::_Tidy [0x00007FFCB3B63875+22341]
+	std::vector<v8::CpuProfileDeoptFrame,std::allocator<v8::CpuProfileDeoptFrame> >::_Tidy [0x00007FFCB3B66E33+36099]
+	v8::internal::compiler::InstructionOperand::Compare [0x00007FFCB3AD83DB+167387]
+	v8::internal::PagedSpace::AreaSize [0x00007FFCB5137BF2+73218]
+	v8::internal::PagedSpace::AreaSize [0x00007FFCB5137902+72466]
+	v8::internal::PagedSpace::AreaSize [0x00007FFCB51376CC+71900]
+	v8::internal::interpreter::Register::operator= [0x00007FFCB39AF829+10809]
+	v8::internal::compiler::LiveRange::next [0x00007FFCB39C9A9A+28890]
+	v8::internal::interpreter::Register::operator= [0x00007FFCB39AF378+9608]
+	ChromeMain [0x00007FFCB278CE5A+282]
+	(No symbol) [0x00007FF60ACE5DE0]
+	(No symbol) [0x00007FF60ACE5437]
+	IsSandboxedProcess [0x00007FF60AD55183+139235]
+	BaseThreadInitThunk [0x00007FFCEA478364+20]
+	RtlUserThreadStart [0x00007FFCEA585E91+33]
+
+[0825/145244.361:ERROR:process_info.cc(632)] range at 0x34ca26ec00000000, size 0x1a5 fully unreadable
+[0825/145244.361:ERROR:process_info.cc(632)] range at 0x34ca270c00000000, size 0x1a5 fully unreadable
+[0825/145244.362:ERROR:process_info.cc(632)] range at 0x0, size 0x1a5 fully unreadable
+[0825/145244.592:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2ee6)
+[0825/145301.284:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145302.199:ERROR:process_info.cc(632)] range at 0xf0f034b400000000, size 0x229 fully unreadable
+[0825/145302.199:ERROR:process_info.cc(632)] range at 0xf0f034d400000000, size 0x229 fully unreadable
+[0825/145302.199:ERROR:process_info.cc(632)] range at 0x0, size 0x229 fully unreadable
+[0825/145302.347:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2ee6)
+[0825/145342.780:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145343.624:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/145353.212:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145354.143:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/145403.921:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145404.196:ERROR:process_info.cc(632)] range at 0xd6a326ec00000000, size 0x219 fully unreadable
+[0825/145404.196:ERROR:process_info.cc(632)] range at 0xd6a3270c00000000, size 0x219 fully unreadable
+[0825/145404.196:ERROR:process_info.cc(632)] range at 0x0, size 0x219 fully unreadable
+[0825/145404.620:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2ee6)
+[0825/145433.051:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145433.731:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/145434.424:ERROR:process_info.cc(632)] range at 0xde2834b800000000, size 0x1dd fully unreadable
+[0825/145434.424:ERROR:process_info.cc(632)] range at 0xde2834d800000000, size 0x1dd fully unreadable
+[0825/145434.425:ERROR:process_info.cc(632)] range at 0x0, size 0x1dd fully unreadable
+[0825/145434.584:ERROR:http_transport_win.cc(170)] WinHttpCrackUrl: URL 未使用可识别的协议  (0x2ee6)
+[0825/145440.804:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/145443.004:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145502.969:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/145503.685:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/150031.794:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/150032.513:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/150039.343:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/150853.700:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/150859.083:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/150930.326:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/151436.583:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/151600.316:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/154001.513:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0825/154003.045:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/154009.691:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/154048.411:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/155659.606:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/155955.673:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0825/160010.690:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0829/235222.696:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000035.784:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/000036.558:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000148.441:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/000149.159:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000234.962:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/000235.591:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000354.777:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/000355.427:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000440.303:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000455.803:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000739.575:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/000751.468:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/000752.115:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000835.764:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/000836.365:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/000933.795:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/000934.443:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/001019.298:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/001141.967:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/001142.929:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/001227.792:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/001305.359:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/001325.086:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/001325.821:ERROR:resource_bundle.cc(791)] Failed to load F:\web apps\chess\nw_100_percent.pak
+Some features may not be available.
+[0830/010153.721:WARNING:chrome_main_delegate.cc(590)] final extension: .nw
+[0830/010155.310:ERROR:resource_bundle.cc(791)] Failed to load F:\destop apps\chess\package\nw_100_percent.pak
+Some features may not be available.
+[0830/010251.424:ERROR:resource_bundle.cc(791)] Failed to load F:\destop apps\chess\package\nw_100_percent.pak
+Some features may not be available.
+[0830/010345.068:ERROR:resource_bundle.cc(791)] Failed to load F:\destop apps\chess\package\nw_100_percent.pak
+Some features may not be available.
