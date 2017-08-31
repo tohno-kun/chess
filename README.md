@@ -14,7 +14,7 @@
 
 ### 下载：
 
-在线版：[五子棋小游戏](https://tohno-kun.github.io/chess.html)
+在线版：[五子棋小游戏](https://tohno-kun.github.io/chess/)
 
 绿色版：[chess_boxed](https://github.com/tohno-kun/chess/raw/master/chess_boxed.zip)
 
